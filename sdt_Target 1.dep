@@ -1,0 +1,52 @@
+Dependencies for Project 'sdt', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_LPC11xx.s)(0x4F5835C6)(--cpu Cortex-M0 -g --apcs=interwork -I F:\Keil_v4\ARM\RV31\INC -I F:\Keil_v4\ARM\CMSIS\Include -I F:\Keil_v4\ARM\Inc\NXP\LPC11xx --list "startup_LPC11xx.lst" --xref -o "startup_LPC11xx.o" --depend "startup_LPC11xx.d")
+F (.\system_LPC11xx.c)(0x5BF61F90)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I F:\Keil_v4\ARM\RV31\INC -I F:\Keil_v4\ARM\CMSIS\Include -I F:\Keil_v4\ARM\Inc\NXP\LPC11xx -o "system_lpc11xx.o" --omf_browse "system_lpc11xx.crf" --depend "system_lpc11xx.d")
+I (F:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (F:\Keil_v4\ARM\Inc\NXP\LPC11xx\LPC11xx.h)(0x4FF500CA)
+I (F:\Keil_v4\ARM\CMSIS\Include\core_cm0.h)(0x50062982)
+I (F:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h)(0x50595C8C)
+I (F:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA945C)
+I (F:\Keil_v4\ARM\Inc\NXP\LPC11xx\system_LPC11xx.h)(0x4F583770)
+F (.\sdt_main.c)(0x5BF6690D)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I F:\Keil_v4\ARM\RV31\INC -I F:\Keil_v4\ARM\CMSIS\Include -I F:\Keil_v4\ARM\Inc\NXP\LPC11xx -o "sdt_main.o" --omf_browse "sdt_main.crf" --depend "sdt_main.d")
+I (F:\Keil_v4\ARM\Inc\NXP\LPC11xx\lpc11xx.h)(0x4FF500CA)
+I (F:\Keil_v4\ARM\CMSIS\Include\core_cm0.h)(0x50062982)
+I (F:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (F:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h)(0x50595C8C)
+I (F:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA945C)
+I (F:\Keil_v4\ARM\Inc\NXP\LPC11xx\system_LPC11xx.h)(0x4F583770)
+I (gpio.h)(0x5BD92632)
+I (type.h)(0x4C74B6C8)
+I (led.h)(0x5BF6690D)
+I (timer.h)(0x520A71B0)
+F (.\gpio.c)(0x5BF602AE)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I F:\Keil_v4\ARM\RV31\INC -I F:\Keil_v4\ARM\CMSIS\Include -I F:\Keil_v4\ARM\Inc\NXP\LPC11xx -o "gpio.o" --omf_browse "gpio.crf" --depend "gpio.d")
+I (F:\Keil_v4\ARM\Inc\NXP\LPC11xx\LPC11xx.h)(0x4FF500CA)
+I (F:\Keil_v4\ARM\CMSIS\Include\core_cm0.h)(0x50062982)
+I (F:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (F:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h)(0x50595C8C)
+I (F:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA945C)
+I (F:\Keil_v4\ARM\Inc\NXP\LPC11xx\system_LPC11xx.h)(0x4F583770)
+I (gpio.h)(0x5BD92632)
+I (type.h)(0x4C74B6C8)
+F (.\led.c)(0x5BF7FE76)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I F:\Keil_v4\ARM\RV31\INC -I F:\Keil_v4\ARM\CMSIS\Include -I F:\Keil_v4\ARM\Inc\NXP\LPC11xx -o "led.o" --omf_browse "led.crf" --depend "led.d")
+I (gpio.h)(0x5BD92632)
+I (type.h)(0x4C74B6C8)
+I (F:\Keil_v4\ARM\Inc\NXP\LPC11xx\lpc11xx.h)(0x4FF500CA)
+I (F:\Keil_v4\ARM\CMSIS\Include\core_cm0.h)(0x50062982)
+I (F:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (F:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h)(0x50595C8C)
+I (F:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA945C)
+I (F:\Keil_v4\ARM\Inc\NXP\LPC11xx\system_LPC11xx.h)(0x4F583770)
+I (led.h)(0x5BF6690D)
+I (timer.h)(0x520A71B0)
+F (.\timer.c)(0x5BF6550A)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I F:\Keil_v4\ARM\RV31\INC -I F:\Keil_v4\ARM\CMSIS\Include -I F:\Keil_v4\ARM\Inc\NXP\LPC11xx -o "timer.o" --omf_browse "timer.crf" --depend "timer.d")
+I (F:\Keil_v4\ARM\Inc\NXP\LPC11xx\lpc11xx.h)(0x4FF500CA)
+I (F:\Keil_v4\ARM\CMSIS\Include\core_cm0.h)(0x50062982)
+I (F:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
+I (F:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h)(0x50595C8C)
+I (F:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDA945C)
+I (F:\Keil_v4\ARM\Inc\NXP\LPC11xx\system_LPC11xx.h)(0x4F583770)
+I (timer.h)(0x520A71B0)
+F (.\gpio.h)(0x5BD92632)()
+F (.\led.h)(0x5BF6690D)()
+F (.\type.h)(0x4C74B6C8)()
+F (.\timer.h)(0x520A71B0)()

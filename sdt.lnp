@@ -1,0 +1,5 @@
+--cpu Cortex-M0 "startup_lpc11xx.o" "system_lpc11xx.o" "sdt_main.o" "gpio.o" "led.o" "timer.o" 
+--strict --scatter "sdt.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\sdt.map" -o sdt.axf

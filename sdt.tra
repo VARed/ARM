@@ -1,0 +1,25 @@
+*** Creating Trace Output File 'sdt.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup_lpc11xx.o"'
+### List of Objects: adding '"system_lpc11xx.o"'
+### List of Objects: adding '"sdt_main.o"'
+### List of Objects: adding '"gpio.o"'
+### List of Objects: adding '"led.o"'
+### List of Objects: adding '"timer.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M0 "startup_lpc11xx.o" "system_lpc11xx.o" "sdt_main.o" "gpio.o" "led.o" "timer.o" 
+--strict --scatter "sdt.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\sdt.map" -o sdt.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'sdt.axf'
+### ADS-LD Command File: 'sdt.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'sdt.lnp', Handle=0x00000BE8
+### Writing '.lnp' file
+### ADS-LD Command file 'sdt.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
